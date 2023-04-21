@@ -5,7 +5,7 @@ module.exports = {
       transformGroup: ["js/MUI"],
       tokenSet: "undefined",
       tokenPrefix: "MUI_TOKENS",
-      buildPath: "style-dictator/build/javascript/",
+      buildPath: "my-app/src/build/tokens/",
       files: [
         {
           destination: "palette.js",

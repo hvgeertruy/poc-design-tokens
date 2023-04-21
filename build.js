@@ -74,7 +74,7 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerFormat({
   name: "mui/tokens",
   formatter: ({ dictionary, platform, file }) => {
-    return `const ${
+    return `export const ${
       platform.tokenPrefix
     }_${file.tokenType.toUpperCase()} = ${formatEntries(
       dictionary?.tokens[platform.tokenSet][file.tokenType]
@@ -87,7 +87,7 @@ StyleDictionary.registerFormat({
   formatter: ({ dictionary, platform, file }) => {
     const spacings = dictionary?.tokens[platform.tokenSet][file.tokenType];
 
-    return `const ${
+    return `export const ${
       platform.tokenPrefix
     }_${file.tokenType.toUpperCase()} = ${JSON.stringify(
       Object.keys(spacings).map((key) => {

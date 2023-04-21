@@ -1,0 +1,1 @@
+export const MUI_TOKENS_PALETTE = {"primary":{"main":"#ff0000","darker":"#0000ff"},"neutral":{"main":"#64748B","contrastText":"#fff","darker":"#ffffff"}}
