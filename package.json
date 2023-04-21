@@ -1,0 +1,23 @@
+{
+  "name": "poc-design-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvgeertruy/poc-design-tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvgeertruy/poc-design-tokens/issues"
+  },
+  "homepage": "https://github.com/hvgeertruy/poc-design-tokens#readme",
+  "dependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}
