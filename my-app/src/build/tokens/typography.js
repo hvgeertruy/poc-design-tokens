@@ -1,1 +1,1 @@
-export const MUI_TOKENS_TYPOGRAPHY = {"fontFamily":"Raleway, Arial","fontSize":12,"subtitle1":{"fontSize":12},"body1":{"fontWeight":500},"button":{"fontStyle":"italic"}}
+export const MUI_TOKENS_TYPOGRAPHY = {"fontFamily":"Raleway, Arial","fontSize":12,"h1":{"fontWeight":500,"fontSize":32},"h2":{"fontSize":24},"body1":{"fontSize":14,"fontWeight":500},"button":{"fontStyle":"italic"}}

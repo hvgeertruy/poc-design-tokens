@@ -1,8 +1,6 @@
 /** This build script is inspired on https://github.com/headwayio/shipwright-tokens/tree/a51ff008ead1d6faf47eca719ac1a3f278032d48 */
 
-const StyleDictionary = require("style-dictionary").extend(
-  "./style-dictator/config.js"
-);
+const StyleDictionary = require("style-dictionary").extend("./config.js");
 
 /** Consts */
 const isValue = (obj) => "value" in obj;
