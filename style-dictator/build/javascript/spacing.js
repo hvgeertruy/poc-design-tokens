@@ -1,1 +1,1 @@
-const MUI_TOKENS_SPACING = [0,4,8,16,21,64]
+export const MUI_TOKENS_SPACING = [0,4,8,16,21,64]

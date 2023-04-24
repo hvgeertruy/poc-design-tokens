@@ -11,19 +11,24 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <Box>
-            Edit <code>src/App.js</code> and save to reload.
+            <h1>
+              This is a Proof of Concept on synchronizing our design tokens.
+            </h1>
+            <h2>We have some MUI components on this page</h2>
+            <p>
+              When changing the design tokens, you should see them updated here.
+              Steps to take:
+              <br />- Update design tokens in figma
+              <br />- Synchronize design tokens in figma using `push to github`
+              <br />- pull changes into `poc-design-tokens`
+              <br />- run `npm run build:design-tokens` in `poc-design-tokens`
+              <br />- The app should update
+            </p>
           </Box>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <Button>Hello world</Button>
+
+          <Button variant="contained">Hello world</Button>
+          <Button variant="outlined">Hello world</Button>
         </header>
       </div>
     </ThemeProvider>
